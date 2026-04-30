@@ -1,0 +1,42 @@
+/* ===== CONFIGURAÇÃO GERAL DA PÁGINA ===== */
+body {
+  font-family: Arial, sans-serif; /* Define a fonte padrão do site */
+  line-height: 1.6; /* Aumenta o espaçamento entre linhas (melhora leitura) */
+  margin: 0; /* Remove margem padrão do navegador */
+  padding: 0; /* Remove espaçamento interno padrão */
+}
+
+/* ===== CONTAINER PRINCIPAL ===== */
+.viagem{
+  max-width: 900px;   /* Limita a largura máxima do conteúdo (evita texto muito esticado) */
+  margin: auto;       /* Centraliza o conteúdo na tela */
+  padding: 20px;      /* Cria espaço interno nas laterais */
+}
+
+/* ===== IMAGENS ===== */
+img {
+  width: 70%;       /* Faz a imagem ocupar toda a largura do container */
+  max-height: 400px; /* Limita a altura da imagem (evita ficar gigante) */
+  object-fit: cover; /* Corta a imagem sem distorcer (mantém proporção) */
+  border-radius: 10px; /* Arredonda os cantos (estética) */
+}
+
+/* ===== TÍTULOS ===== */
+h1 {
+  font-size: 24px;   /* Define tamanho do título */
+  margin-top: 30px;  /* Espaço acima do título (separa seções) */
+}
+
+/* ===== PARÁGRAFOS ===== */
+p {
+  font-size: 16px;   /* Tamanho padrão ideal para leitura */
+  color: #333;       /* Cor mais suave que preto puro (menos cansativo) */
+}
+
+/* ===== SEÇÕES (BLOCOS DE CONTEÚDO) ===== */
+section {
+  margin-bottom: 40px; /* Espaço entre uma seção e outra */
+  background: #f9f9f9; /* Fundo levemente cinza (efeito de "card") */
+  padding: 15px;       /* Espaço interno dentro da seção */
+  border-radius: 10px; /* Cantos arredondados (visual moderno) */
+}
